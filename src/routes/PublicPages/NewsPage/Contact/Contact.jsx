@@ -10,7 +10,7 @@ export default () => (
       <div className='hightlight-container'>
         <div className='title-container center reverse'>
           <div className='title'>
-            We are so much glad to hear from you, my friend.
+            We would love to hear from you!
           </div>
         </div>
         <Background className='background-symbols' />
