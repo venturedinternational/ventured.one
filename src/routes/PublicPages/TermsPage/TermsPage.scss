@@ -1,0 +1,110 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.terms-and-conditions {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 120px auto 50px;
+  z-index: 99;
+
+  .terms-logo {
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 250%;
+    opacity: 0.05;
+
+    &.second{
+      top: 600%;
+    }
+
+    @media(max-width: map-get($grid-breakpoints, md)){
+      bottom: -40%;
+      width: 200px;
+    }
+  }
+
+  .tag {
+    margin: 10px 10px 10px 0px;
+    text-align: justify;
+  }
+  
+  > p {
+    margin: 10px 10px 20px 0px;
+    text-align: justify;
+  }
+
+  & > * {
+    margin: 0 0 10px;
+  }
+
+  .title {
+    align-self: center;
+  }
+
+  .subtitle {
+    margin: 0 0 24px;
+    align-self: center;
+  }
+
+  .section {
+    margin: 24px 0px 24px 24px;
+     & > * {
+       margin: 0 0 10px;
+     }
+
+    p {
+      margin: 12px;
+      text-align: justify;
+    }
+
+    ul {
+      list-style: inherit;
+
+      li {
+        margin: 0px 10px 0px 30px;
+        text-align: justify;
+      }
+    }
+
+    .section-header {
+      margin: 0px -20px 12px;
+    }
+
+    h4.section-footer {
+      text-align: right;
+      margin: 20px 12px;
+    }
+
+    .last-update {
+      text-align: right;
+    }
+  }
+}
+
+@media(max-width: map-get($grid-breakpoints, md)){
+  .terms-and-conditions {
+    margin: 100px 20px;
+    .section {
+      margin: 20px 10px 0px 20px;
+
+      p {
+        margin: 0px 0px 10px;
+      }
+
+      ul {
+        li {
+          margin: 0px 0px 0px 10px;
+        }
+      }
+
+      .section-header {
+        margin: 0px -20px 12px;
+      }
+    }
+  }
+}

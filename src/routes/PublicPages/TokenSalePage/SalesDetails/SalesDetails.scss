@@ -1,0 +1,33 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.landing-section.sales-details{
+    svg.sales-details-graph{
+        margin-right: 50px;
+    }
+    .title-container{
+        padding-top: 50px;
+        text-align: left;
+        .subtitle{
+            text-align: left;
+            font-size: 1.6rem;
+        }
+        span.highlight{
+            color: $primary-color;
+            font-weight: 600;
+        }
+    }
+    @media(max-width: map-get($grid-breakpoints, sm)){
+        svg.sales-details-graph{
+            width: 200px;
+            margin-right: 0px;
+        }
+        .title-container{
+            padding-top: 10px;
+            .subtitle{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

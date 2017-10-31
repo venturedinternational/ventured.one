@@ -1,0 +1,30 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.landing-section.feature-venture{
+    svg.ventures-graph {
+        width: 140%;
+        margin: auto;
+        transform: translate(-15%, 0px);
+        @media(min-width: map-get($grid-breakpoints, lg)){
+            // transform: translate(-10%, 0px);
+        }
+        @media(max-width: map-get($grid-breakpoints, sm)){
+            transform: translate(-250px, 0px);
+            width: 1000px;
+        }
+    }
+    @media(max-width: map-get($grid-breakpoints, sm)){
+        svg.sales-details-graph{
+            width: 200px;
+            margin-right: 0px;
+        }
+        .title-container{
+            padding-top: 10px;
+            .subtitle{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

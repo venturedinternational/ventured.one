@@ -1,0 +1,86 @@
+@import '~styles/partials/_colors';
+@import '~styles/partials/_variables';
+@import '~styles/partials/_buttons';
+
+.landing-section{
+    padding: 80px 0px;
+    overflow: hidden;
+    height: auto;
+    background: $background-secondary;
+    
+    &.white{
+        background: $white;
+    }
+
+    svg {
+        margin: auto;
+    }
+    
+    @media(max-width: map-get($grid-breakpoints, sm)){
+        padding: 30px 0px;
+    }
+}
+
+.title-container {
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+    width: 100%;
+    margin: auto;
+    padding: 0px 0px 30px;
+    text-align: left;
+    
+    @media(max-width: map-get($grid-breakpoints, sm)){
+        padding: 20px 0px;
+    }
+
+    &.reverse {
+        .title{
+            color: $white;
+        }
+        .subtitle{
+            color: rgba($white, 0.8)
+        }
+    }
+
+    &.center {
+        text-align: center;
+        @media(max-width: map-get($grid-breakpoints, sm)){
+            text-align: left;
+        }
+    }
+    &.center-xs,&.center-xs-up{
+        text-align: center;
+        @media(max-width: map-get($grid-breakpoints, sm)){
+            text-align: center;
+        }
+    }
+
+    .title{
+        color: $black;
+        max-width: 600px;
+        margin: auto;
+        font-weight: 900;
+        font-size: 2.3rem;
+        line-height: 2.6rem;
+        margin-bottom: 20px;
+        @media(max-width: map-get($grid-breakpoints, sm)){
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+            line-height: 2.5rem;
+        }
+    }
+    .subtitle{
+        text-align: center;
+        margin: auto;
+        max-width: 480px;
+        color: $grey;
+        font-weight: 500;
+        font-size: 1.2rem;
+        letter-spacing: 0.1px;
+        @media(max-width: map-get($grid-breakpoints, sm)){
+            letter-spacing: -0.2px;
+            width: 100%;
+            margin: 0px;
+            text-align: justify;
+        }
+    }
+}

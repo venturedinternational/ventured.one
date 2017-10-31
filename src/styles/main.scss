@@ -1,0 +1,62 @@
+@import 'partials/colors';
+@import 'partials/variables';
+@import 'partials/mixins';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  box-sizing: border-box;
+  background-color: $background-primary;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+:root {
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 14px;
+
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    // normal size
+    font-size: 14px;
+  }
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    // on mobile
+    font-size: 16px;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+button, a {
+  outline: none;
+  text-decoration: none;
+  color: $black;
+
+  &:visited{
+    text-decoration: none;
+  }
+}
+
+// span, li {
+//   font-size: 1rem;
+// }
+
+svg {
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+// @import more component styles
+@import 'partials/containers';

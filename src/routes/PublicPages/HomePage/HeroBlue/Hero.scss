@@ -1,0 +1,97 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.hero-section {
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+  position: relative;
+  background: hsla(0,0%,100%,.54) radial-gradient(80% 125%,#14e9fe 0%, #0af 100%);
+  height: 100vh;
+  @media(max-width: map-get($grid-breakpoints, sm)){
+    background: hsla(0,0%,100%,.54) radial-gradient(120% 125%,#14e9fe 0%, #0af 100%);
+  }
+  .fullscreen {
+      width: 100%;
+      height: 100%;
+      min-height: 300px;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+  }
+  .particle {
+      @extend .fullscreen;
+      z-index: 50;
+
+      canvas{
+          @extend .fullscreen;
+      }
+      &.lg{
+          @media(max-width: map-get($grid-breakpoints, sm)){
+              display: none;
+          }
+      }
+
+      &.xs{
+          @media(min-width: map-get($grid-breakpoints, sm)){
+              display: none;
+          }
+      }
+  }
+
+  .container{
+      user-select: none;
+      z-index: 99;
+      padding-top: 35vh;
+      color: $white;
+      display: block;
+
+      .title {
+        color: $white;
+        font-size: 3.5rem;
+        font-weight: 900;
+        text-shadow: 0px 1px 30px rgba($black, 0.15);
+        
+        @media(max-width: map-get($grid-breakpoints, sm)){
+          font-size: 2.6rem;
+          line-height: 3rem;
+        }
+      }
+
+      .subtitle {
+          margin-top: 10px;
+          color: $white;
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          font-size: 2rem;
+          text-shadow: 0px 1px 20px rgba($black, 0.15);
+
+          @media(max-width: map-get($grid-breakpoints, sm)){
+              font-size: 1.7rem;
+              line-height: 2.3rem;
+              margin-bottom: 50px;
+          }
+      }
+
+      .actions {
+          margin-top: 30px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+          .whitepaper.contribute{
+              box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+              text-decoration: none;
+          }
+      }
+  }
+
+  @media(max-width: map-get($grid-breakpoints, sm)){
+      .container{
+          .actions {
+              margin-top: 30px;
+              flex-direction: column;
+          }
+      }
+  }
+}

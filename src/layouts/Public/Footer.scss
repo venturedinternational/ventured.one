@@ -1,0 +1,78 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.public-footer{
+    padding: 30px 20px;
+    background: $white;
+    .col{
+        text-align: center;
+        width: 90%;
+
+        .link-container{
+            margin: auto;
+            text-align: left;
+            width: 30%;
+            
+            @media(max-width: map-get($grid-breakpoints, sm)){
+                text-align: center;
+            }
+            a.footer-link{
+                font-size: 1rem;
+                display: block;
+                color: rgba($black, 0.8);
+                cursor: pointer;
+                @media(max-width: map-get($grid-breakpoints, sm)){
+                    margin: 20px auto;
+                }
+                &:hover{
+                    opacity: 1;
+                    transition: 0.1s all ease-in;
+                }
+            }
+        }
+
+        &.social {
+            text-align: center;
+            @media(max-width: map-get($grid-breakpoints, sm)){
+                margin: 20px auto;
+            }
+            span.item{
+                color: rgba($black, 0.6);
+                margin: 5px;
+                display: inline-flex;
+                background: $background-secondary;
+                padding: 10px;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 50px;
+                opacity: 1;
+                box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+                &:hover{
+                    box-shadow: 0px 1px 7px rgba(0,0,0,0.08);
+                }
+                i{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+    .footer-logo{
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+
+// facebook
+// github
+// discord group
+// youtube
+// twitter
+// Reddit

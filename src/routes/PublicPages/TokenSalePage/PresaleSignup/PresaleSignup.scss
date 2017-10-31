@@ -1,0 +1,23 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.form-container {
+  margin: 32px 0;
+
+  .title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .subtitle {
+    text-align: center;
+    line-height: 18px;
+    font-size: 1.2rem;
+  }
+
+  .signup {
+    margin: 0 0 24px;
+    text-transform: uppercase;
+  }
+}

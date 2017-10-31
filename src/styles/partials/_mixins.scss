@@ -1,0 +1,19 @@
+@import 'partials/colors';
+@import 'partials/variables';
+
+.pulse {
+  box-shadow: 0 0 0 rgba($background-accent, 0.62);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba($background-accent, 0.62);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba($background-accent, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba($background-accent, 0);
+  }
+}

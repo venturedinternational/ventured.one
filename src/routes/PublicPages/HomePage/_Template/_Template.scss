@@ -1,0 +1,11 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.template{
+    
+
+    @media(max-width: map-get($grid-breakpoints, sm)){
+        
+    }
+}

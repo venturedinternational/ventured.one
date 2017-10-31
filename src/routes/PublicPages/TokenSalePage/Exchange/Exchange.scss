@@ -1,0 +1,25 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.landing-section.buyin-details{
+    .ether-vcn-graph{
+        width: 100%;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .greyout{
+        opacity: 0.6;
+    }
+
+    .subtitle{
+        .highlight{
+            font-weight: 900;
+            color: $primary-color;
+        }
+    }
+    @media(max-width: map-get($grid-breakpoints, sm)){
+        
+    }
+}

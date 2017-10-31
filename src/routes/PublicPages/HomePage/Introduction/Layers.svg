@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1157" height="424" viewBox="0 0 1157 424">
+  <defs>
+    <path id="b" d="M365.31557,110.625262 C357.096364,108.42967 356.862831,104.873204 364.830752,102.674319 L735.220825,2.08673514 C743.263749,-0.108857291 756.278168,-0.112149599 764.332659,2.08673514 L1134.71801,102.674319 C1142.67429,104.869911 1142.46549,108.426378 1134.23429,110.625262 L763.862748,211.212846 C756.083516,213.408439 743.511432,213.411731 735.719459,211.212846 L365.31557,110.625262 Z"/>
+    <filter id="a" width="118.3%" height="167.3%" x="-9.1%" y="-24.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="20" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.158882473 0"/>
+    </filter>
+    <path id="d" d="M322.20544,110.470039 C314.033248,108.274446 313.911671,104.71798 321.965833,102.519095 L693.25496,1.93151126 C701.251023,-0.264081172 714.185244,-0.26737348 722.192648,1.93151126 L1093.47007,102.519095 C1101.51231,104.714687 1101.41527,108.271154 1093.231,110.470039 L721.960409,211.057622 C714.095066,213.253215 701.379457,213.256507 693.501395,211.057622 L322.20544,110.470039 Z"/>
+    <filter id="c" width="118.3%" height="167.3%" x="-9.1%" y="-24.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="20" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.158882473 0"/>
+    </filter>
+    <path id="f" d="M322.036122,110.314815 C313.952517,108.119222 313.988541,104.562756 322.141627,102.363871 L693.668994,1.77628738 C701.576685,-0.419305052 714.361721,-0.42259736 722.280402,1.77628738 L1093.78623,102.363871 C1101.92702,104.559464 1101.98726,108.11593 1093.89149,110.314815 L722.382663,210.902398 C714.418548,213.097991 701.537253,213.101283 693.560483,210.902398 L322.036122,110.314815 Z"/>
+    <filter id="e" width="118.4%" height="167.8%" x="-9.2%" y="-24.5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="20" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.158882473 0"/>
+    </filter>
+    <linearGradient id="i" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#00AAFF"/>
+      <stop offset="100%" stop-color="#14E9FE"/>
+    </linearGradient>
+    <path id="h" d="M381.036122,110.186456 C372.952517,107.990864 372.988541,104.434398 381.141627,102.235513 L752.668994,1.64792917 C760.576685,-0.547663261 773.361721,-0.550955569 781.280402,1.64792917 L1152.78623,102.235513 C1160.92702,104.431105 1160.98726,107.987572 1152.89149,110.186456 L781.382663,210.77404 C773.418548,212.969633 760.537253,212.972925 752.560483,210.77404 L381.036122,110.186456 Z"/>
+    <filter id="g" width="118.2%" height="167.3%" x="-9.1%" y="-24.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="20" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.158882473 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-39 20)">
+    <g transform="translate(16 131)">
+      <use fill="black" filter="url(#a)" xlink:href="#b"/>
+      <use fill="#818181" xlink:href="#b"/>
+      <text fill="#151515" fill-opacity=".638" font-family="Roboto-Regular, Roboto" font-size="22">
+        <tspan x="22.132" y="107">Ethereum Smart Contract Layer</tspan>
+      </text>
+    </g>
+    <g transform="translate(59 87)">
+      <use fill="black" filter="url(#c)" xlink:href="#d"/>
+      <use fill="#00AAFF" xlink:href="#d"/>
+      <text fill="#0474AB" font-family="Roboto-Regular, Roboto" font-size="22">
+        <tspan x="50.482" y="110">Ventured Network Layer</tspan>
+      </text>
+    </g>
+    <g transform="translate(59 43)">
+      <use fill="black" filter="url(#e)" xlink:href="#f"/>
+      <use fill="#FFFFFF" stroke="#EAEAEA" xlink:href="#f"/>
+      <text fill="#D2D2D2" font-family="Roboto-Regular, Roboto" font-size="22">
+        <tspan x="97.71" y="111">The Gig Economy</tspan>
+      </text>
+    </g>
+    <use fill="black" filter="url(#g)" xlink:href="#h"/>
+    <use fill="url(#i)" xlink:href="#h"/>
+    <text fill="#14E9FE" font-family="Roboto-Regular, Roboto" font-size="22">
+      <tspan x="61.985" y="111">The Next Generation of Work</tspan>
+    </text>
+  </g>
+</svg>

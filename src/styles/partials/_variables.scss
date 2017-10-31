@@ -1,0 +1,12 @@
+// Global Variables
+
+$button-radius: 5px;
+
+$grid-breakpoints: (
+  // refernece from BS4(https://v4-alpha.getbootstrap.com/layout/grid/#all-breakpoints)
+  xl: 1200px,
+  lg: 992px,
+  md: 768px,
+  sm: 576px,
+  xs: 576px
+);

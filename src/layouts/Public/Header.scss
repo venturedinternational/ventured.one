@@ -1,0 +1,127 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.public-header{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background: rgba(white, 1);
+    z-index: 990;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    box-shadow: 0px 2px 10px -1px rgba($black, 0.1);
+    @media(max-width: map-get($grid-breakpoints, sm)){
+      height: 50px;
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+
+      .nav-item {
+        color: rgba($text-primary, 0.6);
+        font-size: 1rem;
+        font-weight: 600;
+        margin: auto 24px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.2px;
+        @media(max-width: map-get($grid-breakpoints, sm)){
+          font-size: 0.7rem;
+          margin: auto 10px;
+        }
+
+        &:hover {
+          color: $primary-color;
+        }
+
+        &.button .ant-btn-primary {
+          padding: 10px 13px;
+          line-height: 1px;
+          color: $white;
+          text-transform: uppercase;
+          letter-spacing: 0.2px;
+          font-weight: 700;
+          @media(max-width: map-get($grid-breakpoints, sm)){
+            letter-spacing: 0.1px;
+            padding: 10px 10px;
+          }
+        }
+      }
+
+      &.left {
+        justify-content: flex-end;
+        width: 40%;
+        margin-left: 10%;
+        @media(max-width: map-get($grid-breakpoints, sm)){
+          width: 45%;
+          margin-left: 0%;
+        }
+      }
+
+      &.center {
+        width: 10%;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        @media(max-width: map-get($grid-breakpoints, sm)){
+          width: 7%;
+        }
+      }
+
+      &.right {
+        justify-content: flex-start;
+        width: 40%;
+        margin-right: 10%;
+        @media(max-width: map-get($grid-breakpoints, sm)){
+          width: 45%;
+          margin-right: -10px;
+        }
+      }
+
+      .social {
+        position: absolute;
+        right: 12px;
+
+      .icon {
+        align-self: flex-end;
+        color: rgba($black, 0.6);
+        margin: 5px;
+        display: inline-flex;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+
+        &:hover{
+          color: $primary-color;
+        }
+        i {
+          font-size: 1.3rem;
+        }
+      }
+
+      }
+
+      .header-logo {
+        width: auto;
+        height: 40px;
+        @media(max-width: map-get($grid-breakpoints, sm)){
+          height: 30px;
+        }
+      }
+    }
+}
+
+
+@media(max-width: map-get($grid-breakpoints, sm)){
+  .hide-sm{
+    display: none !important;
+  }
+}

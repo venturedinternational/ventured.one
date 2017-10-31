@@ -1,0 +1,26 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.landing-section.timeline-details{
+    .timeline{
+        &.lg{
+            width: 100%;
+            max-width: 700px;
+            margin: auto;
+            @media(max-width: map-get($grid-breakpoints, sm)){
+                display: none;
+            }
+        }
+
+        &.xs{
+            width: 300px;
+            height: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            @media(min-width: map-get($grid-breakpoints, sm)){
+                display: none;
+            }
+        }
+    }
+}

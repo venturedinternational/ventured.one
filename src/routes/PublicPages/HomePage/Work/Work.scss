@@ -1,0 +1,26 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.landing-section.feature-work{
+  .supports-graph {
+    &.lg{
+      width: 100%;
+      max-width: 1024px;
+      margin: auto;
+      margin-bottom: -100px;
+      @media(max-width: map-get($grid-breakpoints, sm)){
+        display: none;
+      }
+    }
+
+    &.xs{
+      width: 100%;
+      margin: 50px auto -20px;
+      height: 100%;
+      @media(min-width: map-get($grid-breakpoints, sm)){
+        display: none;
+      }
+    }
+  }
+}
