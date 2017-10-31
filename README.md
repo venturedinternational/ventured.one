@@ -1,7 +1,5 @@
 # Ventured One Web App
 
-[![Build Status](https://travis-ci.com/venturednetwork/ventured.one.svg?token=p4moEs3bArBvFWfUqpj5&branch=master)](https://travis-ci.com/venturednetwork/ventured.one)
-
 ## Table of Contents
 1. [Requirements](#requirements)
 1. [Installation](#getting-started)
