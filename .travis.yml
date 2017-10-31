@@ -24,23 +24,12 @@ before_deploy:
 
 deploy:
   - provider: s3
-    on:
-      branch: master
     access_key_id: $AWS_ACCESS_KEY_ID
     secret_access_key: $AWS_SECRET_ACCESS_KEY
     bucket: ventured.one
-    region: $AWS_S3_REGION
     skip_cleanup: true
+    acl: public_read
     local_dir: dist
-    cache_control: "max-age=21600"
-  - provider: s3
-    on:
-      branch: develop
-    access_key_id: $AWS_ACCESS_KEY_ID
-    secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: develop.ventured.one
-    region: $AWS_S3_REGION
-    skip_cleanup: true
-    local_dir: dist
+    region: us-east-2
     cache_control: "max-age=21600"
 
