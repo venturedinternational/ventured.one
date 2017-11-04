@@ -20,7 +20,7 @@ export default () => (
         >
           <a
             target='_blank'
-            href='https://github.com/venturednetwork/whitepaper'
+            href='https://github.com/venturedinternational/whitepaper'
           >
             Whitepaper
             <i className='fa fa-chevron-right'

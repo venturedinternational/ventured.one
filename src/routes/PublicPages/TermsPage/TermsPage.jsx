@@ -451,7 +451,7 @@ export default () => (
         VCN and the Platform, as developed and made available by Company, will relate to organization
         creation, dynamic cryptocurrency generation  and other smart contract uses. Further details
         regarding the Platform are described in the Venture Coin Whitepaper (“Whitepaper”), which
-        is available at: <a href='https://github.com/venturednetwork/whitepaper'>https://github.com/venturednetwork/whitepaper</a>.
+        is available at: <a href='https://github.com/venturedinternational/whitepaper'>https://github.com/venturedinternational/whitepaper</a>.
         The information contained in the Whitepaper and Ventured’s website are of descriptive nature only,
         and do not, unless explicitly incorporated herein, form part of the Terms.
         Although Company intends to develop the Platform in the manner generally described above,
