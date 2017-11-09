@@ -479,7 +479,7 @@ export default () => (
         2. Commencement and Duration of Token Sale
       </h3>
       <p>
-        The Company estimates that the sale will commence about 8:00 am PDT on November 10, 2017,
+        The Company estimates that the sale will commence about 9:00 am PST on November 17, 2017,
         and that the sale will end 30 days thereafter.  For the avoidance of doubt, these estimates
         are provided for informational purposes only, and the Sale Period will commence and conclude
         strictly according to its definition above.
@@ -488,14 +488,14 @@ export default () => (
         the transfer of the respective amount of Ether submitted to the Smart Contract System from
         the Smart Contract System’s address back to the address used by that purchaser to transfer
         Ether to the Smart Contract System. If, during the Sale Period, the Activation Threshold
-        is reached, but less than 100,000 Ether has been received by Company, no additional VCN will
+        is reached, but less than 125,000 Ether has been received by Company, no additional VCN will
         be sold.
       </p>
       <h3>
         3. VentureCoin (VCN) Price
       </h3>
       <p>
-        1 Ether will purchase VCN based on the following formula: 1ETH = ValueOfEther * 12VCN.
+        1 Ether will purchase VCN based on the following formula: 1ETH = 8000 VCN.
         There is no sale price for Company VCN, which is created by the Smart Contract System and
         pre-allocated to the Company before the Sale Period.
       </p>
