@@ -24,7 +24,7 @@ export default () => (
           Our vision is a world where individuals are empowered with the freedom to choose the work best suited for them. And a world where the most inspired ventures thrive because people can easily support them with their talents and resources.
         </div>
         <div className='title presale'>
-          There is a Presale starting 72 hours before the ICO
+        The initial VentureCoin crowdfunding will have a hard cap of 125,000 ETH.
         </div>
         <PresaleSignup />
       </div>

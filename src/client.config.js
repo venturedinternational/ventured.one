@@ -1,5 +1,5 @@
 export default {
-  ICOTime: 'Nov 10, 2017 08:00:00',
+  ICOTime: 'Nov 22, 2017 09:00:00',
   endPoints: {
     mailChimp: 'usX.api.mailchimp.com/3.0',
   },

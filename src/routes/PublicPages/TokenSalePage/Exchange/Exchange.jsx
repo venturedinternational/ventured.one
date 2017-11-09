@@ -10,12 +10,12 @@ export default () => (
     <div className='container center'>
       <div className='title-container center'>
         <div className='title'>
-          1 ETH = <span className='greyout'>EthValue * 12 VCN</span>
+          1 ETH = <span className='greyout'>8000 VCN</span>
         </div>
         <div className='subtitle'>
           You can exchange VCN with Ether (ETH).<br />
           <span className='highlight'><b>EthValue</b></span> will be determined by the price in the ICO period<br />
-          <span className='highlight'>The address</span> will be announced here <span className='highlight'>24 hours</span> before the crowdsale.
+          <span className='highlight'>The address</span> will be announced here <span className='highlight'>2 hours</span> before the crowdsale.
         </div>
       </div>
       <EthereumExchange className='ether-vcn-graph' />
