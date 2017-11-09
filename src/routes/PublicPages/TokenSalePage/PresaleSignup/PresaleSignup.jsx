@@ -10,7 +10,7 @@ export default() => (
       <a
         target='_blank'
         href='http://one.us16.list-manage.com/subscribe/post?u=118ecdb6a70c9cf4b14f4e6ca&id=a6eb0f66b1'>
-        Presale Signup Here
+        Notifiy Me When It Starts
         <i
           className='fa fa-envelope'
           style={{
