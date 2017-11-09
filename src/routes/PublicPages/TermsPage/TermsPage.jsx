@@ -479,11 +479,7 @@ export default () => (
         2. Commencement and Duration of Token Sale
       </h3>
       <p>
-<<<<<<< HEAD
-        The Company estimates that the sale will commence about 9:00 am PDT on November 17, 2017,
-=======
         The Company estimates that the sale will commence about 9:00 am PST on November 17, 2017,
->>>>>>> a6d99aa7da0912825bcce5d072440747d6b8ccc5
         and that the sale will end 30 days thereafter.  For the avoidance of doubt, these estimates
         are provided for informational purposes only, and the Sale Period will commence and conclude
         strictly according to its definition above.
