@@ -451,7 +451,7 @@ export default () => (
         VCN and the Platform, as developed and made available by Company, will relate to organization
         creation, dynamic cryptocurrency generation  and other smart contract uses. Further details
         regarding the Platform are described in the Venture Coin Whitepaper (“Whitepaper”), which
-        is available at: <a href='https://github.com/venturednetwork/whitepaper'>https://github.com/venturednetwork/whitepaper</a>.
+        is available at: <a href='https://github.com/venturedinternational/whitepaper'>https://github.com/venturedinternational/whitepaper</a>.
         The information contained in the Whitepaper and Ventured’s website are of descriptive nature only,
         and do not, unless explicitly incorporated herein, form part of the Terms.
         Although Company intends to develop the Platform in the manner generally described above,
@@ -479,7 +479,11 @@ export default () => (
         2. Commencement and Duration of Token Sale
       </h3>
       <p>
+<<<<<<< HEAD
         The Company estimates that the sale will commence about 9:00 am PDT on November 17, 2017,
+=======
+        The Company estimates that the sale will commence about 9:00 am PST on November 17, 2017,
+>>>>>>> a6d99aa7da0912825bcce5d072440747d6b8ccc5
         and that the sale will end 30 days thereafter.  For the avoidance of doubt, these estimates
         are provided for informational purposes only, and the Sale Period will commence and conclude
         strictly according to its definition above.
@@ -488,14 +492,14 @@ export default () => (
         the transfer of the respective amount of Ether submitted to the Smart Contract System from
         the Smart Contract System’s address back to the address used by that purchaser to transfer
         Ether to the Smart Contract System. If, during the Sale Period, the Activation Threshold
-        is reached, but less than 100,000 Ether has been received by Company, no additional VCN will
+        is reached, but less than 125,000 Ether has been received by Company, no additional VCN will
         be sold.
       </p>
       <h3>
         3. VentureCoin (VCN) Price
       </h3>
       <p>
-        1 Ether will purchase VCN based on the following formula: 1ETH = ValueOfEther * 12VCN.
+        1 Ether will purchase VCN based on the following formula: 1ETH = 8000 VCN.
         There is no sale price for Company VCN, which is created by the Smart Contract System and
         pre-allocated to the Company before the Sale Period.
       </p>

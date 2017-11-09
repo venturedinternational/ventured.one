@@ -26,7 +26,7 @@ class PublicNavigation extends Component {
                   <i className='fa fa-facebook' style={{ 'transform': 'translate(5px, 3px)' }} />
                 </span>
               </a>
-              <a href='https://github.com/venturednetwork/' target='_blank'>
+              <a href='https://github.com/venturedinternational/' target='_blank'>
                 <span className='item'>
                   <i className='fa fa-github-alt' style={{ 'transform': 'translate(2px, 2px)' }} />
                 </span>

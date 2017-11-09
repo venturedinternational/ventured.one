@@ -18,7 +18,7 @@ export const Hero = () => (
           className='button-lg white whitepaper'
         >
           <a
-            href='https://github.com/venturednetwork/whitepaper'
+            href='https://github.com/venturedinternational/whitepaper'
             target='_blank'
           >
             Discover the Whitepaper
@@ -28,7 +28,7 @@ export const Hero = () => (
           className='button-lg primary contribute'
         >
           <a
-            href='https://github.com/venturednetwork'
+            href='https://github.com/venturedinternational'
             target='_blank'
           >
             Contribute to the project

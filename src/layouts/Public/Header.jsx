@@ -17,7 +17,7 @@ class Header extends Component {
           </Link>
           <a
             className='nav-item'
-            href='https://github.com/venturednetwork/whitepaper'
+            href='https://github.com/venturedinternational/whitepaper'
             target='_blank'
           >
             Whitepaper
