@@ -469,27 +469,14 @@ export default () => (
       </h3>
       <p>
         Company will create up to 1 billion VCN through the Smart Contract System.
-        Before the Sale Period Begins, the Smart Contract System will create and directly
-        release a pool of 330 million pre-allocated VCN to the Company (<b>“Company VCN”</b>) for
-        certain uses as described in Section 5 of this <b>Exhibit B</b>.  A separate pool of up to 1 billion
-        VCN will be created by the Smart Contract System for sale by the Company to purchasers
-        during the Sale Period. All VCN will be of equal value and functionality.
       </p>
       <h3>
         2. Commencement and Duration of Token Sale
       </h3>
       <p>
-        The Company estimates that the sale will commence about 9:00 am PST on November 17, 2017,
-        and that the sale will end 30 days thereafter.  For the avoidance of doubt, these estimates
-        are provided for informational purposes only, and the Sale Period will commence and conclude
-        strictly according to its definition above.
-        If less than 10.000 Ether have been received by Company during the Sale Period
-        (the <b>“Activation Threshold”</b>), each purchaser will have the possibility to initiate
-        the transfer of the respective amount of Ether submitted to the Smart Contract System from
-        the Smart Contract System’s address back to the address used by that purchaser to transfer
-        Ether to the Smart Contract System. If, during the Sale Period, the Activation Threshold
-        is reached, but less than 125,000 Ether has been received by Company, no additional VCN will
-        be sold.
+        The Company estimates that the sale will commence about 8:00 am CST on November 22, 2017,
+        and that the sale will end 60 days thereafter.  For the avoidance of doubt, these estimates
+        are provided for informational purposes only.
       </p>
       <h3>
         3. VentureCoin (VCN) Price
@@ -506,8 +493,7 @@ export default () => (
         In order to purchase VCN during the Sale Period, and to receive the VCN you purchase,
         you must have an Ethereum wallet that supports the ERC20 token standard.  Company
         reserves the right to prescribe additional wallet requirements.
-        Approximately forty-eight (48) hours prior to the commencement of the Sale Period, Company
-        will publish an address for the VCN sale via https://ventured.one. To initiate a purchase of
+        To initiate a purchase of
         VCN during the Sale Period, you must send an amount of Ether to an Ethereum address
         (the “VCN token Address”) that will be provided to you only after you agree to these Terms
         by clicking the “I Agree with the Terms – View the VCN token Address” button at the bottom
