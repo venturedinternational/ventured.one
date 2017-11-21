@@ -52,7 +52,7 @@ const TimelineXS = (props) => (
         <tspan x='69' y='226'>Crowdsale Starts</tspan>
       </text>
       <text fill='#7B7B7B' fontFamily='.SFNSDisplay, .SF NS Display' fontSize='22'>
-        <tspan x='69' y='192'>November 17</tspan>
+        <tspan x='69' y='192'>November 22</tspan>
       </text>
       <use fill='#000' filter='url(#timeline-xs-e)' xlinkHref='#timeline-xs-f' />
       <use fill='#FFF' xlinkHref='#timeline-xs-f' />
@@ -60,7 +60,7 @@ const TimelineXS = (props) => (
         <tspan x='69' y='396'>Crowdsale Ends</tspan>
       </text>
       <text fill='#7B7B7B' fontFamily='.SFNSDisplay, .SF NS Display' fontSize='22'>
-        <tspan x='69' y='362'>December 17</tspan>
+        <tspan x='69' y='362'>January 22</tspan>
       </text>
       <use fill='#000' filter='url(#timeline-xs-g)' xlinkHref='#timeline-xs-h' />
       <use fill='#FFF' xlinkHref='#timeline-xs-h' />
@@ -68,7 +68,7 @@ const TimelineXS = (props) => (
         <tspan x='69' y='567'>Network Development</tspan>
       </text>
       <text fill='#7B7B7B' fontFamily='.SFNSDisplay, .SF NS Display' fontSize='22'>
-        <tspan x='69' y='533'>January 01</tspan>
+        <tspan x='69' y='533'>February 01</tspan>
       </text>
       <g>
         <use fill='#000' filter='url(#timeline-xs-i)' xlinkHref='#timeline-xs-j' />

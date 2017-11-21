@@ -48,7 +48,7 @@
       <tspan x="69" y="226">Crowdsale Starts</tspan>
     </text>
     <text fill="#7B7B7B" font-family=".SFNSDisplay, .SF NS Display" font-size="22">
-      <tspan x="69" y="192">November 17</tspan>
+      <tspan x="69" y="192">November 22</tspan>
     </text>
     <use fill="#000" filter="url(#timeline-xs-e)" xlink:href="#timeline-xs-f"/>
     <use fill="#FFF" xlink:href="#timeline-xs-f"/>
