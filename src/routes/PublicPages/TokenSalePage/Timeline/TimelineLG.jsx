@@ -39,7 +39,7 @@ const TimelineLG = (props) => (
     </defs>
     <g fill='none' fillRule='evenodd' transform='translate(15 -4)'>
       <rect width='1057' height='15' x='23' y='96' fill='#DCE3E3' rx='7.5' />
-      <rect width='142' height='15' x='23' y='96' fill='url(#timeline-md-a)' rx='7.5' />
+      <rect width='320' height='15' x='23' y='96' fill='url(#timeline-md-a)' rx='7.5' />
       <text fill='#7B7B7B' fontFamily='.SFNSDisplay, .SF NS Display' fontSize='22'>
         <tspan x='0' y='183'>Crowdsale</tspan> <tspan x='0' y='208'>Announced</tspan>
       </text>

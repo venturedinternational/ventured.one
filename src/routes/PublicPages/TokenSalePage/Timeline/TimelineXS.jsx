@@ -39,7 +39,7 @@ const TimelineXS = (props) => (
     </defs>
     <g fill='none' fillRule='evenodd' transform='translate(15 4)'>
       <rect width='542' height='15' x='-247' y='277' fill='#DCE3E3' rx='7.5' transform='rotate(90 24 284.5)' />
-      <rect width='100' height='15' x='-26' y='56' fill='url(#timeline-xs-a)' rx='7.5' transform='rotate(90 24 63.5)' />
+      <rect width='160' height='15' x='-26' y='56' fill='url(#timeline-xs-a)' rx='7.5' transform='rotate(90 24 63.5)' />
       <text fill='#7B7B7B' fontFamily='.SFNSDisplay, .SF NS Display' fontSize='22'>
         <tspan x='69' y='55'>Crowdsale Announced</tspan>
       </text>
