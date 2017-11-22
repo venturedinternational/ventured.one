@@ -44,7 +44,7 @@
         .address-display{
             span {
                 display: block;
-                font-size: 2.5rem;
+                font-size: 2rem;
                 border-radius: 0.5rem;
                 color: rgba($black, 0.4);
                 border: 3px solid rgba($black, 0.15);
@@ -56,9 +56,9 @@
                     color: rgba($black, 0.5);
                 }
                 @media(max-width: map-get($grid-breakpoints, sm)){
-                    width: 80%;
+                    width: 100%;
                     text-align: center;
-                    font-size: 1.8rem;
+                    font-size: 0.9rem;
                     padding: 10px;
                     margin: auto;
                 }
