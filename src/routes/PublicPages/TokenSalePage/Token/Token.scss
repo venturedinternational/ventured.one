@@ -41,11 +41,35 @@
                 }
             }
         }
+        .address-display{
+            span {
+                display: block;
+                font-size: 2.5rem;
+                border-radius: 0.5rem;
+                color: rgba($black, 0.4);
+                border: 3px solid rgba($black, 0.15);
+                padding: 15px;
+                margin: 5px;
+                width: 80%;
+                margin: auto;
+                &:hover{
+                    color: rgba($black, 0.5);
+                }
+                @media(max-width: map-get($grid-breakpoints, sm)){
+                    width: 80%;
+                    text-align: center;
+                    font-size: 1.8rem;
+                    padding: 10px;
+                    margin: auto;
+                }
+            }
+        }
     }
 
     .title.presale{
         margin: 50px auto 20px;
-        font-size: 1.7rem;
+        font-weight: 500;
+        font-size: 1.4rem;
     }
 
     .signup {

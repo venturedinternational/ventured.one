@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import VentureCoin from 'icons/VentureCoin'
 import Countdown from 'components/Countdown'
-import PresaleSignup from '../PresaleSignup'
+// import PresaleSignup from '../PresaleSignup'
 import config from 'client.config'
 
 import './Token.scss'
@@ -13,20 +13,22 @@ export default () => (
       <VentureCoin className='ventures-coin-graph' />
       <div className='title-container center'>
         <div className='title'>
-          VentureCoin(VCN) CrowdSale in
+          VentureCoin(VCN) CrowdSale address:
+          <div>Hard cap: 41,625 ETH.</div>
         </div>
         <div className='countdown-clock'>
           <Countdown
             endDate={new Date(`${config.ICOTime}`).getTime()}
           />
         </div>
-        <div className='subtitle'>
-          Our vision is a world where individuals are empowered with the freedom to choose the work best suited for them. And a world where the most inspired ventures thrive because people can easily support them with their talents and resources.
-        </div>
         <div className='title presale'>
-        The initial VentureCoin crowdfunding will have a hard cap of 41,625 ETH.
+          <div>**DO NOT** send ether directly from exchanges such as coinbase/GDAX/Bittrx/Poliniex...</div>
+          <div>Please transfer from smart contract wallet such as  
+            <a target='_blank' href='https://metamask.io/'>MataMask</a> or 
+            <a target='_blank' href='https://www.myetherwallet.com/'>MyEtherWallet</a>
+          </div>
         </div>
-        <PresaleSignup />
+        {/* <PresaleSignup /> */}
       </div>
     </div>
   </div>

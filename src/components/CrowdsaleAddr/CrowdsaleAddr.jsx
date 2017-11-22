@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import './Countdown.scss'
-import config from 'client.config'
+import './CrowdsaleAddr.scss'
 
-class Countdown extends Component {
+class CrowdsaleAddr extends Component {
   componentWillMount () {
-    if (!this.props.endDate || typeof this.props.endDate !== 'number') {
-      console.error('CoundDown requires endDate as a Number prop')
-    }
+    
   }
 
   state = {
@@ -26,11 +23,11 @@ class Countdown extends Component {
 
   startTimer = () => {
     if (!this.timer) {
-      this.timer = setInterval(this.countDown, 1000)
+      this.timer = setInterval(this.CrowdsaleAddr, 1000)
     }
   }
 
-  countDown = () => {
+  CrowdsaleAddr = () => {
     const currentDate = new Date().getTime()
     const remaining = this.state.endDate - currentDate
 
@@ -51,45 +48,28 @@ class Countdown extends Component {
     }
   }
 
-  renderCorrectly = () => {
-    if (this.state.remaining > 0) {
-      return (
-        <div className='timer-display'>
-          <span>{this.timeLeft.days}d</span>
-          <span>{this.timeLeft.hours}h</span>
-          <span>{this.timeLeft.minutes}m</span>
-          <span>{this.timeLeft.seconds}s</span>
-        </div>
-      )
-    } else {
-      return (
-        <div className='address-display'>
-          <span>{config.crowdsaleAddress && config.crowdsaleAddress}</span>
-        </div>
-      )
-    }
-  }
-
   render () {
     return (
-      <div className='countdown-timer'>
+      <div className='CrowdsaleAddr-timer'>
         <div className='timer-title'>
           {this.props.title}
         </div>
-        {this.renderCorrectly()}
+        <div className='timer-display'>
+          <span>TBA</span>
+        </div>
       </div>
     )
   }
 }
 
-Countdown.defaultProps = {
+CrowdsaleAddr.defaultProps = {
   endDate: 0,
   title: '',
 }
 
-Countdown.propTypes = {
+CrowdsaleAddr.propTypes = {
   endDate: PropTypes.number,
   title: PropTypes.string,
 }
 
-export default Countdown
+export default CrowdsaleAddr
