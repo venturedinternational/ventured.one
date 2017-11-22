@@ -6,5 +6,5 @@ export default {
   apiKeys: {
     mailchimpApiKey: 'b2e5c6be5d29f350af0416d436f359aa-us16'
   },
-  crowdsaleAddress: 'To be announced soon.'
+  crowdsaleAddress: '0xd980442a6ba33931cfaa57c0fd3b2c3826433dd5'
 }
