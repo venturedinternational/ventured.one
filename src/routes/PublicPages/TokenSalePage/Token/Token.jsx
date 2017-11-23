@@ -24,7 +24,7 @@ export default () => (
         <div className='title presale'>
           <div>**DO NOT** send ether directly from exchanges such as coinbase/GDAX/Bittrex/Poloniex...</div>
           <div>Please transfer from smart contract wallet such as
-            <a target='_blank' href='https://metamask.io/'> MataMask</a> or
+            <a target='_blank' href='https://metamask.io/'> MetaMask</a> or
             <a target='_blank' href='https://www.myetherwallet.com/'> MyEtherWallet</a>
           </div>
         </div>
