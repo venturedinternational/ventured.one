@@ -24,7 +24,7 @@ export default () => (
               </a>
             </div>
           </div>
-          <div className='col'>
+          {/* <div className='col'>
             <img src='images/team/bruno-profile.png' className='profile' />
             <div className='name'>
               Bruno Barbosa
@@ -36,7 +36,7 @@ export default () => (
                 </span>
               </a>
             </div>
-          </div>
+          </div> */}
           <div className='col'>
             <img src='images/team/andy-profile.png' className='profile' />
             <div className='name'>

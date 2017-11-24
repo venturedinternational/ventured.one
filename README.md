@@ -22,7 +22,7 @@
 ## Installation
 
 ```bash
-$ git clone https://github.com/bruno-barbosa/ventured.one.git <my-project-name>
+$ git clone https://github.com/venturedinternational/ventured.one.git <my-project-name>
 $ cd <my-project-name>
 ```
 
