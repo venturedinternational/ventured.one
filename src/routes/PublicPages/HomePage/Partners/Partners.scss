@@ -1,0 +1,27 @@
+@import '~styles/partials/colors';
+@import '~styles/partials/variables';
+@import '~styles/partials/buttons';
+
+.partners-section {
+  background: $white;
+  .partners-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .partner {
+      width: 100%;
+      max-width: 150px;
+      max-height: 150px;
+
+      @media(max-width: map_get($grid-breakpoints, sm)) {
+        width: 50%;
+        max-width: 100px;
+      }
+    }
+  }
+
+  @media(max-width: map-get($grid-breakpoints, sm)){
+
+  }
+}

@@ -1,6 +1,6 @@
 import Public from 'layouts/Public'
 import HomePage from './HomePage'
-import TokenSalePage from './TokenSalePage'
+// import TokenSalePage from './TokenSalePage'
 import TermsPage from './TermsPage'
 import NewsPage from './NewsPage'
 import CompanyPage from './CompanyPage'
