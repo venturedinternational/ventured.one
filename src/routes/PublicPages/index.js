@@ -11,7 +11,7 @@ export default (store) => ({
   indexRoute  : HomePage,
   childRoutes : [
     CompanyPage(),
-    TokenSalePage(),
+    // TokenSalePage(),
     TermsPage(),
     NewsPage(),
   ]

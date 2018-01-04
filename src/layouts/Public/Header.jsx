@@ -30,11 +30,11 @@ class Header extends Component {
           <Link className='nav-item' to='/news'>
             <span className='hide-sm'>Latest</span> News
           </Link>
-          <Link className='nav-item button' to='/tokensale'>
+          <a className='nav-item button' href='https://github.com/venturedinternational'>
             <Button className='pulse' type='primary'>
-              Crowdsale
+              Contribute
             </Button>
-          </Link>
+          </a>
           <div className='social'>
             <span className='hide-sm'>
               <a href='https://slack.ventured.one' target='_blank'>

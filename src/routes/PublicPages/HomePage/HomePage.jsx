@@ -16,6 +16,6 @@ export default () => (
     <Venture />
     <Work />
     <Reward />
-    <Token />
+    {/* <Token /> */}
   </div>
 )
