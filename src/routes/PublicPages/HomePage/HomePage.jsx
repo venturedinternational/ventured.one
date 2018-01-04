@@ -6,7 +6,7 @@ import Venture from './Venture'
 import Work from './Work'
 import Reward from './Reward'
 import Team from './Team'
-import Partners from './Partners'
+import EEA from './EEA'
 import News from './News'
 
 import './HomePage.scss'
@@ -14,12 +14,12 @@ import './HomePage.scss'
 export default () => (
   <div>
     <Hero />
+    <EEA />
     <Introduction />
     <Venture />
     <Work />
     <Reward />
-    <Team />
-    <Partners />
     <News />
+    <Team />
   </div>
 )
