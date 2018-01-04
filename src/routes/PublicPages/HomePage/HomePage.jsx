@@ -5,7 +5,6 @@ import Introduction from './Introduction'
 import Venture from './Venture'
 import Work from './Work'
 import Reward from './Reward'
-import Token from './Token'
 import Team from './Team'
 import Partner from './Partner'
 import News from './News'
@@ -22,6 +21,5 @@ export default () => (
     <Team />
     <Partner />
     <News />
-    {/* <Token /> */}
   </div>
 )
