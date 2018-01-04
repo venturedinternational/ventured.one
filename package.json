@@ -21,7 +21,8 @@
   "theme": "./theme.js",
   "prepush": {
     "tasks": [
-      "npm run lint"
+      "npm run lint",
+      "npm run test"
     ],
     "onDirtyState": "ask",
     "coloredOutput": true

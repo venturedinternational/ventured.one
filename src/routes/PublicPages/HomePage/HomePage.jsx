@@ -6,7 +6,7 @@ import Venture from './Venture'
 import Work from './Work'
 import Reward from './Reward'
 import Team from './Team'
-import Partner from './Partner'
+import Partners from './Partners'
 import News from './News'
 
 import './HomePage.scss'
@@ -19,7 +19,7 @@ export default () => (
     <Work />
     <Reward />
     <Team />
-    <Partner />
+    <Partners />
     <News />
   </div>
 )
