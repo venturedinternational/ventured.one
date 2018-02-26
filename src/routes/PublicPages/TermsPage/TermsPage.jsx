@@ -462,127 +462,16 @@ export default () => (
         Exhibit B
       </h2>
       <h3>
-        Token Sale Procedures and Specifications
-      </h3>
-      <h3>
-        1. Total Number of VCN to be Created and Sold
-      </h3>
-      <p>
-        Company will create up to 1 billion VCN through the Smart Contract System.
-      </p>
-      <h3>
-        2. Commencement and Duration of Token Sale
-      </h3>
-      <p>
-        The Company estimates that the sale will commence about 8:00 am CST on November 22, 2017,
-        and that the sale will end 60 days thereafter.  For the avoidance of doubt, these estimates
-        are provided for informational purposes only.
-      </p>
-      <h3>
-        3. VentureCoin (VCN) Price
-      </h3>
-      <p>
-        1 Ether will purchase VCN based on the following formula: 1ETH = 8000 VCN.
-        There is no sale price for Company VCN, which is created by the Smart Contract System and
-        pre-allocated to the Company before the Sale Period.
-      </p>
-      <h3>
-        4. Procedures for Buying and Receiving VCN
-      </h3>
-      <p>
-        In order to purchase VCN during the Sale Period, and to receive the VCN you purchase,
-        you must have an Ethereum wallet that supports the ERC20 token standard.  Company
-        reserves the right to prescribe additional wallet requirements.
-        To initiate a purchase of
-        VCN during the Sale Period, you must send an amount of Ether to an Ethereum address
-        (the “VCN token Address”) that will be provided to you only after you agree to these Terms
-        by clicking the “I Agree with the Terms – View the VCN token Address” button at the bottom
-        of these Terms.  Sending Ether to the VCN token Address during the Sale Period triggers a
-        smart contract operation, pursuant to which the Smart Contract System will automatically
-        create and promptly deliver the corresponding VCN to the ERC20 wallet address from which the Ether were sent.
-        Ether must be sent to the VCN token Address during the Sale Period in order to purchase and
-        receive VCN.  Sending Ether to any other address may result in loss of Ether.  Attempted
-        transactions to purchase VCN will be rejected if Ether is sent to the VCN token Address at
-        any time before or after the Sale Period.
-        The Smart Contract System is deployed by Company from Delaware, and is programmed
-        so that all transactions it executes will be executed in the Delaware. As such, title
-        to, and risk of loss of, VCN created and delivered by the Smart Contract System passes from
-        Company to purchasers in Delaware.
-      </p>
-      <h3>
-        5. Company VCN and User Growth Fund
-      </h3>
-      <p>
-        Of the Company VCN, 330 million VCN will be used for compensating employees and
-        contractors, and for other internal purposes in connection with the deployment and the
-        development of the Platform.
-        The remaining 330 million VCN of the Company VCN will be allocated to a <b>“User Growth Fund”</b>,
-        which we will administer to incentivize use of the Platform.
-      </p>
-      <h3>
-        6. Use of Proceeds from VCN Crowd Sale
-      </h3>
-      <p>
-        The Ether that Company receives for VCN sold to purchasers during the Sale Period, up to
-        100.000 Ether, will be used to compensate engineers, staff and contractors, cover operating
-        costs and marketing expenses, and to address other administrative and unforeseen costs.
-        The following is an estimated, illustrative allocation of these budget items, which Company
-        reserves the right to modify in its sole and absolute discretion:
-      </p>
-      <ul>
-        <li>
-          Technical Development and Staff (estimated 58% of proceeds).
-           <li>
-             This budget item will support Company’s team of engineers who are developing the
-             Platform and making necessary adjustments to the development of the existing Ventured
-             solution and related technology.
-           </li>
-        </li>
-        <li>
-          Contractors (estimated 13% of proceeds).
-          <li>
-            This budget item will focus on third-party engineering, promotional work,
-            growth hacking, public relations, and affiliate program partnerships.
-          </li>
-        </li>
-        <li>
-          Marketing (estimated 12% of proceeds).
-          <li>
-            This budget item will be used for marketing to expand awareness and adoption
-            of the Platform.
-          </li>
-          <li>
-            It will also be used for broader development, growth and maintenance of the Ventured community.
-          </li>
-        </li>
-        <li>
-          Administration (estimated 10% of proceeds).
-          <li>
-            This budget item will entail legal, accounting and other professional services fees;
-            physical infrastructure and security costs; and other associated administration costs.
-          </li>
-        </li>
-        <li>
-          Contingency (estimated 7% of proceeds).
-          <li>
-            This budget item is intended as a reserve to address unforeseen costs.
-          </li>
-        </li>
-      </ul>
-      <h2 className='section-header'>
-        Exhibit C
-      </h2>
-      <h3>
         Certain Risks Relating to Purchase, Sale and Use of VCN
       </h3>
       <p>
         <b>Important Note:</b>  As noted elsewhere in these Terms, the VCN are not being structured
         or sold as securities or any other form of investment product.  Accordingly, none of
-        the information presented in this Exhibit C is intended to form the basis for any
+        the information presented in this Exhibit B is intended to form the basis for any
         investment decision, and no specific recommendations are intended. Company expressly
         disclaims any and all responsibility for any direct or consequential loss or damage of
         any kind whatsoever arising directly or indirectly from: (i) reliance on any information
-        contained in this <b>Exhibit C</b>, (ii) any error, omission or inaccuracy in any such information
+        contained in this <b>Exhibit B</b>, (ii) any error, omission or inaccuracy in any such information
         or (iii) any action resulting from such information.
         <b> By purchasing, holding and using VCN, you expressly acknowledge and assume the following risks:</b>
       </p>
@@ -598,9 +487,6 @@ export default () => (
         misappropriate your VCN.  Any errors or malfunctions caused by or otherwise related to the
         digital wallet or vault you choose to receive and store VCN, including your own failure to
         properly maintain or use such digital wallet or vault, may also result in the loss of your VCN.
-        Additionally, your failure to follow precisely the procedures set forth in Section 4 of <b>Exhibit B</b>
-        for buying and receiving VCN, including, for instance, if you provide the wrong address for receiving VCN,
-        may result in the loss of your VCN.
       </p>
       <h3>
         2.Risks Associated with the Ethereum Protocol
@@ -752,7 +638,7 @@ export default () => (
       </h3>
       <p>
         Cryptographic tokens such as VCN are a new and untested technology. In addition to the
-        risks included in this <b>Exhibit C</b>, there are other risks associated with your purchase,
+        risks included in this <b>Exhibit B</b>, there are other risks associated with your purchase,
         holding and use of VCN, including those that the Company cannot anticipate. Such risks
         may further materialize as unanticipated variations or combinations of the risks discussed
         in this <b>Exhibit C</b>.
@@ -762,7 +648,7 @@ export default () => (
         smart work contracts, Built on Ethereum, that enable the exchange of equity and create
         accountability on the blockchain...
       </h4>
-      <p className='last-update'>Last Updated July 18th 2017, 5pm PDT</p>
+      <p className='last-update'>Last Updated February 26th 2018, 3pm PDT</p>
     </div>
   </div>
 )
