@@ -71,7 +71,7 @@ export default () => (
       <p>
         You acknowledge and agree that there are risks associated with purchasing VCN, holding VCN,
         and using VCN in connection with the Services and Platform, as disclosed and explained in
-        <b> Exhibit C</b>. If you have any questions regarding these risks, please contact us at legal@Ventured.one.
+        <b> Exhibit B</b>. If you have any questions regarding these risks, please contact us at legal@Ventured.one.
         BY PURCHASING VCN, YOU EXPRESSLY ACKNOWLEDGE AND ASSUME THESE RISKS.
       </p>
       <h2 className='section-header'>
@@ -139,7 +139,7 @@ export default () => (
         <li>
           You understand, acknowledge and assume the risks associated with the purchase, holding
           and use of VCN in connection with the Services and Platform, as explained and disclosed
-          in Section 5 and <b>Exhibit C</b>;
+          in Section 5 and <b>Exhibit B</b>;
         </li>
         <li>
           You understand that VCN confer only the right to receive Services and to access the
@@ -393,7 +393,7 @@ export default () => (
         purchase of VCN from us. We may make changes to these Terms from time to time as reasonably
         required to comply with applicable law or regulation. If we make changes, we will post the
         amended Terms at <a href='https://ventured.one/terms-and-conditions'>https://ventured.one/terms-and-conditions</a>
-        and update the “Last Updated” date above.
+         and update the “Last Updated” date above.
         We may also attempt to notify you through the VCN website at <a href='https://ventured.one/terms-and-conditions'>https://ventured.one/terms-and-conditions</a>.
         The amended Terms will be effective immediately. We may assign our rights and obligations under
         these Terms. Our failure to exercise or enforce any right or provision of these Terms will
@@ -641,7 +641,7 @@ export default () => (
         risks included in this <b>Exhibit B</b>, there are other risks associated with your purchase,
         holding and use of VCN, including those that the Company cannot anticipate. Such risks
         may further materialize as unanticipated variations or combinations of the risks discussed
-        in this <b>Exhibit C</b>.
+        in this <b>Exhibit B</b>.
       </p>
       <h4 className='section-footer'>
         Ventured seeks to establish social equity between contractors and companies through
